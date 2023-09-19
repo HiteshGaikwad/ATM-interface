@@ -33,10 +33,10 @@ class ATM {
                  System.out.println("Your pin is not of valid length, Please try again.");
              }
         } else if(option==2){
-            System.out.print("Enter your User ID: ");
-             userId = scanner.nextLine();
-            System.out.print("Enter your PIN: ");
-             pinNum = scanner.nextLine();
+            System.out.println("Enter your User ID: ");
+             userId = scanner.next();
+            System.out.println("Enter your PIN: ");
+             pinNum = scanner.next();
         }else {
             System.out.print("Invalid input, Please try again...");
             return;
